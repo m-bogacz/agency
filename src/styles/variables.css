@@ -1,0 +1,14 @@
+:root {
+  --colors-primary: #1090cb;
+  --colors-gray-100: #868686;
+  --colors-black-100: #252525;
+  --colors-black: #000000;
+
+  --font-size-sm: 12;
+  --font-size-md: 16;
+  --font-size-xl: 16;
+
+  --border-radius-sm: 4;
+  --border-radius-md: 10;
+  --border-radius-xl: 16;
+}

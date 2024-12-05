@@ -7,7 +7,7 @@ import { makeSdTailwindConfig } from "sd-tailwindcss-transformer";
 const sdConfig = makeSdTailwindConfig({
   type: "all",
   isVariables: true,
-  source: ["tokens.json"],
+  source: ["tokens/*.json"],
   preprocessors: ["tokens-studio"],
   buildPath: "./src/styles/",
   formatType: "js",

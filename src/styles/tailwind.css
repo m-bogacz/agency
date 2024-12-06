@@ -7,4 +7,7 @@
   --color-black: #000000;
   --color-grey-800: #5c5c5c;
   --color-grey-700: #868686;
+  --fontsizes-body: 16rem;
+  --fontsizes-sm: 13.6rem;
+  --fontsizes-xs: 10.4rem;
 }

@@ -10,6 +10,11 @@ module.exports = {
         black: "var(--color-black)",
     "grey_800": "var(--color-grey-800)",
     "grey_700": "var(--color-grey-700)"
+      },
+      fontsizes: {
+        body: "var(--fontsizes-body)",
+        sm: "var(--fontsizes-sm)",
+        xs: "var(--fontsizes-xs)"
       }
     },
   },

@@ -7,8 +7,8 @@
   --color-black: #000000;
   --color-grey-800: #5c5c5c;
   --color-grey-700: #868686;
-  --fontsizes-body: 1rem;
   --fontsizes-sm: 0.85rem;
   --fontsizes-xs: 0.65rem;
-  --fontsizes-lg: 1 * .99;
+  --fontsizes-lg: body * .80;
+  --fontsizes-body: 16px;
 }

@@ -12,10 +12,10 @@ module.exports = {
     "grey_700": "var(--color-grey-700)"
       },
       fontsizes: {
-        body: "var(--fontsizes-body)",
         sm: "var(--fontsizes-sm)",
         xs: "var(--fontsizes-xs)",
-        lg: "var(--fontsizes-lg)"
+        lg: "var(--fontsizes-lg)",
+        body: "var(--fontsizes-body)"
       }
     },
   },

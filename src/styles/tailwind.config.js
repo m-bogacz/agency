@@ -5,13 +5,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      tokens: {
-        color: {
-          primary: "var(--tokens-color-primary)",
-          black: "var(--tokens-color-black)",
-      "grey_800": "var(--tokens-color-grey-800)",
-      "grey_700": "var(--tokens-color-grey-700)"
-        }
+      color: {
+        primary: "var(--color-primary)",
+        black: "var(--color-black)",
+    "grey_800": "var(--color-grey-800)",
+    "grey_700": "var(--color-grey-700)"
       }
     },
   },

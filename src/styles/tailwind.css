@@ -3,8 +3,8 @@
  */
 
 :root {
-  --tokens-color-primary: #1090cb;
-  --tokens-color-black: #000000;
-  --tokens-color-grey-800: #5c5c5c;
-  --tokens-color-grey-700: #868686;
+  --color-primary: #1090cb;
+  --color-black: #000000;
+  --color-grey-800: #5c5c5c;
+  --color-grey-700: #868686;
 }

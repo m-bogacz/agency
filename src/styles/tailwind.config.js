@@ -14,7 +14,8 @@ module.exports = {
       fontsizes: {
         body: "var(--fontsizes-body)",
         sm: "var(--fontsizes-sm)",
-        xs: "var(--fontsizes-xs)"
+        xs: "var(--fontsizes-xs)",
+        lg: "var(--fontsizes-lg)"
       }
     },
   },

@@ -15,13 +15,10 @@ jobs:
       - name: mkdir "tokens" directory
         run: "mkdir -p tokens"
 
-      - name: create json from request body
-        id: create-json
-        uses: jsdaniell/create-json@1.1.2
-        with:
-          name: ${{ github.event.client_payload.filename }}
-          json: ${{ github.event.client_payload.tokens }}
-          dir: "tokens"
+      # Zastąpienie jsdaniell/create-json prostym skryptem
+      - name: Create JSON file
+        run: |
+          echo '${{ github.event.client_payload.tokens }}' > tokens/${{ github.event.client_payload.filename }}
 
       - name: Use Node.js 22.11.0
         uses: actions/setup-node@v3

@@ -5,6 +5,7 @@ on:
 
 jobs:
   build:
+    permissions: write-all
     name: Transform Figma design tokens for specific platforms
     runs-on: ubuntu-latest
     steps:
@@ -29,6 +30,7 @@ jobs:
         run: "npm i && npm run build:tokens"
 
       - name: Setup Git Config
+
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
